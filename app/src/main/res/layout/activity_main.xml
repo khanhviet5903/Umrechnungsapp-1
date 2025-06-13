@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="@string/flaeche_in_fussballfelder"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/inputArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/flaeche_in_m_2_z_b_15000"
+        android:inputType="numberDecimal"
+        android:minHeight="50dp" />
+    <Button
+        android:id="@+id/btnConvertArea"
+        android:background="#0015ee"
+        android:textColor="@color/white"
+        android:text="@string/umrechnen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!-- Section 2: Alter in Minuten -->
+    <TextView
+        android:text="@string/alter_in_minuten"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/inputBirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/geburtsdatum_jjjj_mm_tt"
+        android:inputType="text"
+        android:minHeight="50dp" />
+    <Button
+        android:id="@+id/btnConvertAge"
+        android:background="#0015ee"
+        android:textColor="@color/white"
+        android:text="@string/berechnen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!-- Section 3: Geldbetrag in Zeit -->
+    <TextView
+        android:text="@string/geldbetrag_in_zeit_sekunden"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/inputMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/geldbetrag_in_z_b_1000000"
+        android:inputType="number"
+        android:minHeight="50dp" />
+    <Button
+        android:id="@+id/btnConvertMoney"
+        android:background="#0015ee"
+        android:textColor="@color/white"
+        android:text="@string/konvertieren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Ergebnisanzeige -->
+    <TextView
+        android:id="@+id/textResult"
+        android:text="@string/ergebnis_erscheint_hier"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d50013" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UmrechnungApp</string>
+    <string name="flaeche_in_fussballfelder">Fläche in Fußballfelder</string>
+    <string name="alter_in_minuten">Alter in Minuten</string>
+    <string name="geldbetrag_in_zeit_sekunden">Geldbetrag in Zeit (Sekunden)</string>
+    <string name="berechnen">Berechnen</string>
+    <string name="umrechnen">Umrechnen</string>
+    <string name="veranschaulichen">Veranschaulichen</string>
+    <string name="flaeche_in_m_2_z_b_15000">Fläche in m² (z. B. 15000)</string>
+    <string name="geburtsdatum_jjjj_mm_tt">Geburtsdatum (JJJJ-MM-TT)</string>
+    <string name="geldbetrag_in_z_b_1000000">Geldbetrag in € (z. B. 1000000)</string>
+    <string name="ergebnis_erscheint_hier">Ergebnis erscheint hier</string>
+    <string name="konvertieren">konvertieren</string>
+</resources>
